@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "question": "Каков порядок выполнения (обработки) операторов в SQL-запросе?",
+        "answer": "SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT"
+    },
+
+    {
+        "id": 2,
+        "question": "Какой оператор используется для выборки только уникальных строк в SQL?",
+        "answer": "DISTINCT"
+    },
+    
+    {
+        "id": 3,
+        "question": "Как в SQL удалить все строки из таблицы и сбросить значения автоинкремента?",
+        "answer": "TRUNCATE TABLE table_name RESTART IDENTITY"
+    },
+
+    {
+        "id": 4,
+        "question": "Как создать столбец с автоинкрементом, значение которого нельзя переопределить вручную?",
+        "answer": "GENERATED ALWAYS AS IDENTITY"
+    }
+]

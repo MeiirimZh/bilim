@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "task": "Выбрать все данные из таблицы customers",
+        "details": "Использовать базу данных Northwind",
+        "solution": "SELECT *\nFROM customers;"
+    },
+
+    {
+        "id": 2,
+        "task": "Выбрать все записи из таблицы customers, но только колонки \"имя контакта\" и \"город\"",
+        "details": "Использовать базу данных Northwind",
+        "solution": "SELECT contact_name, city\nFROM customers;"
+    },
+
+    {
+        "id": 3,
+        "task": "Выбрать все записи из таблицы orders, но взять две колонки: идентификатор заказа и колонку, значение в которой мы рассчитываем как разницу между датой отгрузки и датой формирования заказа.",
+        "details": "Использовать базу данных Northwind.",
+        "solution": "SELECT order_id, shipped_date - order_date\nFROM orders"
+    },
+
+    {
+        "id": 4,
+        "task": "Выбрать все уникальные города в которых \"зарегестрированы\" заказчики",
+        "details": "Использовать базу данных Northwind",
+        "solution": "SELECT DISTINCT city\nFROM customers;"
+    },
+
+    {
+        "id": 5,
+        "task": "Выбрать все уникальные сочетания городов и стран в которых \"зарегестрированы\" заказчики",
+        "details": "Использовать базу данных Northwind",
+        "solution": "SELECT DISTINCT city, country\nFROM customers;"
+    },
+
+    {
+        "id": 6,
+        "task": "Посчитать кол-во заказчиков",
+        "details": "Использовать базу данных Northwind",
+        "solution": "SELECT COUNT(*)\nFROM customers;"
+    },
+
+    {
+        "id": 7,
+        "task": "Посчитать кол-во уникальных стран в которых \"зарегестрированы\" заказчики",
+        "details": "Использовать базу данных Northwind",
+        "solution": "SELECT COUNT(DISTINCT country)\nFROM customers;"
+    }
+]
