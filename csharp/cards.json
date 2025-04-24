@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "question": "Пример базовой структуры программы на C#",
+        "answer": "using System;\n\nclass Program {\n\tstatic void Main(string[] args) {\n\t\t// Точка входа в программу\n\t}\n}"
+    },
+    {
+        "id": 2,
+        "question": "Каков синтаксис метода TryParse в C#?",
+        "answer": "bool result = Type.TryParse(variable, out Type variable2)"
+    }
+]
